@@ -9,6 +9,7 @@ services:
       - mysql_data:/var/lib/mysql
     
   app:
+  
     build: .
     container_name: app
     restart: on-failure

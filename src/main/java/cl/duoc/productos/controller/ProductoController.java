@@ -16,7 +16,7 @@ import cl.duoc.productos.model.Producto;
 import cl.duoc.productos.service.ProductoService;
 
 @RestController
-@RequestMapping("/api/v0/productos")
+@RequestMapping("/api/v00/productos")
 public class ProductoController {
 
     @Autowired
